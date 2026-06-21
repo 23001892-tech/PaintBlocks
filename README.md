@@ -15,7 +15,7 @@
 
 **Paint Blocks** is a 2D mobile puzzle game developed with Unity and C#.
 
-The game is inspired by classic block-placement puzzle games, but it adds a new color-mixing mechanic. Instead of only placing blocks to clear rows and columns, players also need to think about how colors interact with each other on the board.
+The game is inspired by classic block-placement puzzle games, but it adds a color-mixing mechanic to make the gameplay more strategic. Instead of only filling rows and columns, players also need to think about how each color interacts with nearby blocks.
 
 This project was created as a portfolio project to practice Unity gameplay programming, mobile UI interaction, puzzle logic, and game system design.
 
@@ -35,14 +35,14 @@ When two different primary colors are placed next to each other, they can mix in
 - Yellow + Blue = Green
 - Blue + Red = Purple
 
-However, placing the wrong third color next to a secondary color can create an **Ash** block. This makes the gameplay more strategic because players need to consider both block shape and color placement.
+However, placing the wrong third color next to a secondary color can create an **Ash** block. This makes the game require more planning, because players need to consider both block shape and color placement.
 
-## Features
+## Key Features
 
 - 8x8 puzzle board
 - Drag-and-drop block placement
 - Mobile touch support
-- Color mixing mechanic
+- Color-mixing mechanic
 - Ash block penalty mechanic
 - Row and column clearing
 - Target color objective
@@ -61,7 +61,17 @@ Players drag blocks from the tray and place them onto the board.
 
 The goal is to clear rows or columns, create useful color combinations, gain score, and use the bomb skill when the energy bar is full.
 
-Unlike a normal block puzzle game, **Paint Blocks** rewards careful placement instead of only filling empty spaces.
+Compared to a normal block puzzle game, **Paint Blocks** focuses more on careful placement and color strategy.
+
+## Demo / Download
+
+The playable build is available in the **Releases** section of this repository.
+
+Download the latest Android build from:
+
+```text
+GitHub Repository > Releases > Latest Release > Assets
+```
 
 ## Technology
 
@@ -71,14 +81,6 @@ Unlike a normal block puzzle game, **Paint Blocks** rewards careful placement in
 - TextMeshPro
 - Android mobile input
 - Git / GitHub
-
-## Screenshots / Demo
-
-Add gameplay screenshots or GIFs here.
-
-```md
-![Gameplay Screenshot](Assets/Docs/gameplay.png)
-```
 
 ## How to Run
 
