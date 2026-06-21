@@ -15,7 +15,7 @@
 
 **Paint Blocks** is a 2D mobile puzzle game developed with Unity and C#.
 
-The game is inspired by classic block-placement puzzle games, but it adds a color-mixing mechanic to make the gameplay more strategic. Instead of only filling rows and columns, players also need to think about how each color interacts with nearby blocks.
+The game is inspired by classic block-placement puzzle games, but adds a color-mixing mechanic to make the gameplay more strategic. Instead of only filling rows and columns, players also need to think about how each color interacts with nearby blocks.
 
 This project was created as a portfolio project to practice Unity gameplay programming, mobile UI interaction, puzzle logic, and game system design.
 
@@ -29,7 +29,7 @@ Players place blocks with primary colors:
 - Yellow
 - Blue
 
-When two different primary colors are placed next to each other, they can mix into a secondary color:
+When two different primary colors are placed next to each other, they can mix into secondary colors:
 
 - Red + Yellow = Orange
 - Yellow + Blue = Green
@@ -65,13 +65,21 @@ Compared to a normal block puzzle game, **Paint Blocks** focuses more on careful
 
 ## Demo / Download
 
-The playable build is available in the **Releases** section of this repository.
+A playable Android build is available in the **Releases** section of this repository.
 
-Download the latest Android build from:
+Download the latest APK here:
 
 ```text
-GitHub Repository > Releases > Latest Release > Assets
+https://github.com/23001892-tech/PaintBlocks/releases/tag/v1.0.0
 ```
+
+To play the game on Android, download:
+
+```text
+PaintBlocks.apk
+```
+
+from the release assets and install it on your device.
 
 ## Technology
 
@@ -87,7 +95,7 @@ GitHub Repository > Releases > Latest Release > Assets
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-repository-name.git
+git clone https://github.com/23001892-tech/PaintBlocks.git
 ```
 
 Open the project in Unity.
