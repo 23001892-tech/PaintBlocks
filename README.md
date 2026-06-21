@@ -90,30 +90,6 @@ from the release assets and install it on your device.
 - Android mobile input
 - Git / GitHub
 
-## How to Run
-
-Clone the repository:
-
-```bash
-git clone https://github.com/23001892-tech/PaintBlocks.git
-```
-
-Open the project in Unity.
-
-Open the main scene:
-
-```text
-Assets/Project/Scenes/MainMenu.unity
-```
-
-Make sure these scenes are added to Build Profiles / Build Settings:
-
-```text
-MainMenu
-Game
-```
-
-Press Play to test the game.
 
 ## Status
 
